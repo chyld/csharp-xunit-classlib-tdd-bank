@@ -15,5 +15,5 @@
 - dotnet add Application.Tests/Application.Tests.csproj reference Library/Library.csproj
 - dotnet add Application.Tests/Application.Tests.csproj package FluentAssertions
 
-- dotnet run
+- dotnet run --project Application
 - dotnet test
